@@ -33,4 +33,4 @@ mongoose.connect(dbURI)
 
 app.use(authRoutes);
 app.use(todoRoutes);
-app.use("/", questionnaireRoutes);
+app.use(questionnaireRoutes);
