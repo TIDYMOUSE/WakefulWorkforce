@@ -31,7 +31,7 @@ const Questionnaire = () => {
     async function infoSubmit() {
         console.log(answers)
         try {
-            const response = await axios.post('/api/info', {
+            const response = await axios.post(`${process.env.REACT_APP_EXPRESS_URL}/api/info`, {
                 info: answers
             });
             if (response.status === 201) {

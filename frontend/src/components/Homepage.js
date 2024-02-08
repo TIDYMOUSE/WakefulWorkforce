@@ -28,9 +28,9 @@ export default function Homepage() {
                         <b>WAKEFUL <br />WORKFORCE</b>
                     </div>
                     
-                        <button type="button" className="w-[449px] h-[79px] bg-cyan-400 rounded-[50px] py-6 text-slate-950 text-[40px] font-bold font-['Fredoka One'] font-extrabold  flex items-center justify-center hover:text-cyan-400 ml-96  hover:bg-slate-900 hover:border-2 hover:border-cyan-400">
+                        <Link to="/signup" type="button" className="w-[449px] h-[79px] bg-cyan-400 rounded-[50px] py-6 text-slate-950 text-[40px] font-bold font-['Fredoka One'] font-extrabold  flex items-center justify-center hover:text-cyan-400 ml-96  hover:bg-slate-900 hover:border-2 hover:border-cyan-400">
                             START A SESSION
-                        </button>
+                        </Link>
                    
 
 

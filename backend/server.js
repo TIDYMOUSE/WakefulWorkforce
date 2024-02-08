@@ -12,7 +12,7 @@ const questionnaireRoutes = require("./Routes/QuestionnaireRoutes");
 const app = express()
 
 const corsOptions = {
-    origin: 'http://localhost:3000',
+    origin: process.env.FRONTEND_URL,
     credentials: true,            //access-control-allow-credentials:true
     optionSuccessStatus: 200,
     

@@ -10,7 +10,7 @@ function Profile() {
 
     async function handleGetAll() {
         try {
-            const response = await axios.post('/api/infoget', null, { withCredentials: true });
+            const response = await axios.post(process.env.REACT_APP_EXPRESS_URL+'/api/infoget', null, { withCredentials: true });
             if (response.status === 200) {
                 setInfo(response.data.info);
             }

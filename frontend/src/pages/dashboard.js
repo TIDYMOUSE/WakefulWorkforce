@@ -25,7 +25,7 @@ const Dashboard = () => {
                             </p>
                         </div>
                     </div>
-                    <Link to="http://127.0.0.1:5000/" className=" bg-cyan-400 text-slate-900 font-extrabold font-['Fredoka One'] text-xl py-2 px-4 rounded-full self-end  hover:bg-slate-900 hover:border-1 hover:text-cyan-400 hover:border-cyan-400 transition ">START SESSION </Link>
+                    <Link to={process.env.REACT_APP_FLASK_URL} className=" bg-cyan-400 text-slate-900 font-extrabold font-['Fredoka One'] text-xl py-2 px-4 rounded-full self-end  hover:bg-slate-900 hover:border-1 hover:text-cyan-400 hover:border-cyan-400 transition ">START SESSION </Link>
                 </div>
                 <Link to="/todo">
                     <div className="flex items-center justify-center my-8 h-40 bg-black border-cyan-400 border-2 p-6 gap-3 hover:cursor-pointer rounded-3xl w-3/4 ml-44">
