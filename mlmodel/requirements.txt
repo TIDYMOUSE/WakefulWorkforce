@@ -1,4 +1,4 @@
-cv2==4.9.0
+opencv-python==4.9.0
 keras==2.15.0
 numpy==1.26.3
 pygame==2.1.2
