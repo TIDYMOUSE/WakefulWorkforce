@@ -6,3 +6,4 @@ flask==2.0.1
 Werkzeug==2.2.2
 flask_cors==4.0.0
 matplotlib==3.5.1
+gunicorn==21.2.0
